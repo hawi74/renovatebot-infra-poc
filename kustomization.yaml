@@ -3,5 +3,4 @@ kind: Kustomization
 images:
 - name: app
   newName: nginx
-  newTag: "1.20"
-  digest: sha256:a76df3b4f1478766631c794de7ff466aca466f995fd5bb216bb9643a3dd2a6bb
+  newTag: 1.20@sha256:a76df3b4f1478766631c794de7ff466aca466f995fd5bb216bb9643a3dd2a6bb
