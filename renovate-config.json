@@ -1,3 +1,8 @@
 {
-  "onboarding": false
+  "onboarding": false,
+  "repositories": [
+    {
+      "repository": "hawi74/renovatebot-infra-poc"
+    }
+  ]
 }
