@@ -4,5 +4,8 @@
     {
       "matchUpdateTypes": ["minor"]
     }
-  ]
+  ],
+  "kustomize": {
+    "pinDigests": true
+  }
 }
