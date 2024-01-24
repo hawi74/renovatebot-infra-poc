@@ -1,13 +1,3 @@
 {
-  "customManagers": [
-    {
-      "customType": "regex",
-      "fileMatch": ["^kustomization.yaml$"],
-      "matchStrings": ["\\s+newTag: (?<currentDigest>.*?)$"],
-      "currentValueTemplate": "main",
-      "depNameTemplate": "renovatebot-infra-poc",
-      "packageNameTemplate": "https://github.com/hawi74/renovatebot-infra-poc",
-      "datasourceTemplate": "github-refs"
-    }
-  ]
+  "extends": ["config:recommended"]
 }
